@@ -1,0 +1,19 @@
+{
+  "name": "resolve-refs",
+  "version": "1.0.0",
+  "description": "Resolve refs in an OpenAPI file.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "resolver": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Kistler",
+  "license": "MIT",
+  "dependencies": {
+    "@stoplight/json-ref-resolver": "^3.1.5",
+    "commander": "^11.0.0"
+  }
+}
